@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 가상환경
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 모델 파일
+sleep_model.pkl
+*.pkl
+
+# 데이터셋
+dataset/
+*.csv
+
+# 환경변수
+.env
+
+# 운영체제 / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
