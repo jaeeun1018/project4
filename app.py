@@ -10,7 +10,7 @@ from transformers import pipeline
 # 모델 불러오기
 @st.cache_resource
 def load_ml_model():
-    return joblib.load("sleep_model.pkl")
+    return joblib.load("sleep_model_compressed.pkl")
 
 
 model = load_ml_model()
